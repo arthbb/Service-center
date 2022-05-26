@@ -195,8 +195,11 @@ ul {
 
 .services-header__list {
   display: flex;
-  overflow: hidden;
-  scrollbar-width: none;
+  overflow-y: scroll;
+}
+
+.services-header__list::-webkit-scrollbar {
+  display: none;
 }
 
 .services-header__item {
