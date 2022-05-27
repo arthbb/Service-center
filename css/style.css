@@ -36,6 +36,12 @@ html {
   outline: 2px solid #3698FB;
 }
 
+svg {
+ padding-top: 4px;
+  width: 23px;
+  height: 23px;
+}
+
 body {
   overflow-anchor: none;
   margin: 0;
@@ -108,32 +114,54 @@ ul {
 }
 
 .upper-menu__btn-burger {
-  background: center/cover no-repeat url("../img/burger.svg");
+  background: #FF3E79;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
 }
 
 .upper-menu__btn-call {
-  background: center/cover no-repeat url("../img/call.svg");
+  background: #FF3E79;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
 }
 
 .upper-menu__btn-chat {
-  background: center/cover no-repeat url("../img/chat.svg");
+  background: #FF3E79;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
 }
 
 .upper-menu__btn-profile {
-  background: center/cover no-repeat url("../img/profile.svg");
+  background: #FF3E79;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;;
 }
 
 .upper-menu__btn-profile {
-  background: center/cover no-repeat url("../img/profile.svg");
+  background: #FF3E79;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
 }
 
 .upper-menu__btn-repair {
-  background: center/cover no-repeat url("../img/repair.svg");
+  background: #FF3E79;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
 }
 
 .upper-menu__btn-checkstatus {
-  background: center/cover no-repeat url("../img/checkstatus.svg");
+  background: #FF3E79;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
 }
+  
 
 .upper-menu__left {
   gap: 20px;
@@ -183,6 +211,21 @@ ul {
   line-height: 24px;
 }
 
+.services-header__img {
+  background: #FF3E79;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+}
+
+.services-header__img-svg {
+  padding-top: 8px;
+  padding-left: 10px;
+  width: 32px;
+  height: 32px;
+
+}
+
 .services-header__btn-container {
   display: none;
 }
@@ -206,7 +249,7 @@ ul {
   padding: 9px 18px;
 }
 
-.services-header__item--active {
+.services-header__item:hover {
   padding: 7px 20px;
   background-color: #FFFFFF;
   border: 2px solid #B8FFEC;
@@ -226,7 +269,7 @@ ul {
 
 .services-description__text {
   margin-bottom: 16px;
-  max-height: 90px;
+  max-height: 96px;
   overflow: hidden;
 }
 
@@ -349,12 +392,21 @@ ul {
 
   .services-description__par {
     line-height: 20px;
+    min-height: 50px;
   }
 
   .services-description__img {
     width: 50%;
     transform: none;
   }
+
+  .services-header__item:hover {
+    padding: 7px 20px;
+    background-color: #FFFFFF;
+    border: 2px solid #B8FFEC;
+    border-radius: 6px;
+  }
+
 }
 
 @media (max-width: 1120px) {
@@ -362,10 +414,4 @@ ul {
     display: none;
   }
 
-  li:nth-child(2) {
-    padding: 7px 20px;
-    background-color: #FFFFFF;
-    border: 2px solid #B8FFEC;
-    border-radius: 6px;
-  }
 }
